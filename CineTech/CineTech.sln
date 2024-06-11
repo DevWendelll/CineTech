@@ -9,24 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocios", "Negocios", "{24
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{77E8DAB4-F8FB-4F74-9541-812686EEB293}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelaEscolherFilme", "TelaEscolherFilme\TelaEscolherFilme.csproj", "{B70A9422-B21C-4D47-895A-EE426432FCDA}"
-EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B70A9422-B21C-4D47-895A-EE426432FCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B70A9422-B21C-4D47-895A-EE426432FCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B70A9422-B21C-4D47-895A-EE426432FCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B70A9422-B21C-4D47-895A-EE426432FCDA}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{B70A9422-B21C-4D47-895A-EE426432FCDA} = {88B411EF-70E0-482A-A983-8E180BBCAD28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E52793B6-2A84-4881-AE44-F7262C507E4B}
