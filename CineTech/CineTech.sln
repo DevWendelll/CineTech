@@ -9,9 +9,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocios", "Negocios", "{24
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{77E8DAB4-F8FB-4F74-9541-812686EEB293}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelaEscolherFilme", "TelaEscolherFilme\TelaEscolherFilme.csproj", "{8040D49A-03E1-4467-A2B5-3AF7525C8E6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imagens", "Imagens", "{5286BEA3-CCCC-4D45-B393-3C45F6508533}"
+	ProjectSection(SolutionItems) = preProject
+		TelaEscolherFilme\sonic.jpg = TelaEscolherFilme\sonic.jpg
+		TelaEscolherFilme\velozesEfuriosos.jpg = TelaEscolherFilme\velozesEfuriosos.jpg
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8040D49A-03E1-4467-A2B5-3AF7525C8E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8040D49A-03E1-4467-A2B5-3AF7525C8E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8040D49A-03E1-4467-A2B5-3AF7525C8E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8040D49A-03E1-4467-A2B5-3AF7525C8E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8040D49A-03E1-4467-A2B5-3AF7525C8E6A} = {88B411EF-70E0-482A-A983-8E180BBCAD28}
+		{5286BEA3-CCCC-4D45-B393-3C45F6508533} = {88B411EF-70E0-482A-A983-8E180BBCAD28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E52793B6-2A84-4881-AE44-F7262C507E4B}
