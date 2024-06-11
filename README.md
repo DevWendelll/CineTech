@@ -1,0 +1,2 @@
+# CineTech
+Exercício de lógica. 
