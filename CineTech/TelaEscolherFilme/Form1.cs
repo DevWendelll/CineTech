@@ -90,5 +90,10 @@ namespace TelaEscolherFilme
 
             }
         }
+
+        private void btnAssistir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

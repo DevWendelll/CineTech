@@ -35,11 +35,11 @@
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.imgCapaFilme = new System.Windows.Forms.PictureBox();
             this.pnlNomeData = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAssistir = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.mtbDataNascimento = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgCapaFilme)).BeginInit();
             this.pnlNomeData.SuspendLayout();
             this.SuspendLayout();
@@ -115,29 +115,30 @@
             // 
             // pnlNomeData
             // 
-            this.pnlNomeData.Controls.Add(this.button1);
+            this.pnlNomeData.Controls.Add(this.btnAssistir);
             this.pnlNomeData.Controls.Add(this.label5);
             this.pnlNomeData.Controls.Add(this.label4);
             this.pnlNomeData.Controls.Add(this.textBox1);
-            this.pnlNomeData.Controls.Add(this.maskedTextBox1);
+            this.pnlNomeData.Controls.Add(this.mtbDataNascimento);
             this.pnlNomeData.Location = new System.Drawing.Point(50, 463);
             this.pnlNomeData.Name = "pnlNomeData";
             this.pnlNomeData.Size = new System.Drawing.Size(324, 228);
             this.pnlNomeData.TabIndex = 6;
             this.pnlNomeData.Visible = false;
             // 
-            // button1
+            // btnAssistir
             // 
-            this.button1.BackColor = System.Drawing.Color.BlueViolet;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(11, 124);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 31);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Assisitir agora!";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAssistir.BackColor = System.Drawing.Color.BlueViolet;
+            this.btnAssistir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAssistir.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAssistir.ForeColor = System.Drawing.Color.White;
+            this.btnAssistir.Location = new System.Drawing.Point(11, 124);
+            this.btnAssistir.Name = "btnAssistir";
+            this.btnAssistir.Size = new System.Drawing.Size(166, 31);
+            this.btnAssistir.TabIndex = 7;
+            this.btnAssistir.Text = "Assisitir agora!";
+            this.btnAssistir.UseVisualStyleBackColor = false;
+            this.btnAssistir.Click += new System.EventHandler(this.btnAssistir_Click);
             // 
             // label5
             // 
@@ -166,15 +167,15 @@
             this.textBox1.Size = new System.Drawing.Size(213, 20);
             this.textBox1.TabIndex = 2;
             // 
-            // maskedTextBox1
+            // mtbDataNascimento
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(11, 88);
-            this.maskedTextBox1.Mask = "00/00/0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(166, 20);
-            this.maskedTextBox1.TabIndex = 1;
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            this.mtbDataNascimento.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mtbDataNascimento.Location = new System.Drawing.Point(11, 88);
+            this.mtbDataNascimento.Mask = "00/00/0000";
+            this.mtbDataNascimento.Name = "mtbDataNascimento";
+            this.mtbDataNascimento.Size = new System.Drawing.Size(166, 20);
+            this.mtbDataNascimento.TabIndex = 1;
+            this.mtbDataNascimento.ValidatingType = typeof(System.DateTime);
             // 
             // Form1
             // 
@@ -209,11 +210,11 @@
         private System.Windows.Forms.Button btnConfirmar;
         private System.Windows.Forms.PictureBox imgCapaFilme;
         private System.Windows.Forms.Panel pnlNomeData;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox mtbDataNascimento;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAssistir;
     }
 }
 

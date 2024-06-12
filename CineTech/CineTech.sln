@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{77
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelaEscolherFilme", "TelaEscolherFilme\TelaEscolherFilme.csproj", "{8040D49A-03E1-4467-A2B5-3AF7525C8E6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelaAssistir", "TelaAssistir\TelaAssistir.csproj", "{DF72F050-6CDA-4F48-9A42-76913A753F9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{8040D49A-03E1-4467-A2B5-3AF7525C8E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8040D49A-03E1-4467-A2B5-3AF7525C8E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8040D49A-03E1-4467-A2B5-3AF7525C8E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF72F050-6CDA-4F48-9A42-76913A753F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF72F050-6CDA-4F48-9A42-76913A753F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF72F050-6CDA-4F48-9A42-76913A753F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF72F050-6CDA-4F48-9A42-76913A753F9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8040D49A-03E1-4467-A2B5-3AF7525C8E6A} = {88B411EF-70E0-482A-A983-8E180BBCAD28}
+		{DF72F050-6CDA-4F48-9A42-76913A753F9E} = {88B411EF-70E0-482A-A983-8E180BBCAD28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E52793B6-2A84-4881-AE44-F7262C507E4B}
