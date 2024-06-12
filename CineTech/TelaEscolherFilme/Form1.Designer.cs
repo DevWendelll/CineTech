@@ -35,11 +35,11 @@
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.imgCapaFilme = new System.Windows.Forms.PictureBox();
             this.pnlNomeData = new System.Windows.Forms.Panel();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.imgCapaFilme)).BeginInit();
             this.pnlNomeData.SuspendLayout();
             this.SuspendLayout();
@@ -96,9 +96,9 @@
             this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConfirmar.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirmar.ForeColor = System.Drawing.Color.White;
-            this.btnConfirmar.Location = new System.Drawing.Point(61, 415);
+            this.btnConfirmar.Location = new System.Drawing.Point(61, 414);
             this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(93, 31);
+            this.btnConfirmar.Size = new System.Drawing.Size(213, 31);
             this.btnConfirmar.TabIndex = 4;
             this.btnConfirmar.Text = "Comfirmar";
             this.btnConfirmar.UseVisualStyleBackColor = false;
@@ -126,43 +126,6 @@
             this.pnlNomeData.TabIndex = 6;
             this.pnlNomeData.Visible = false;
             // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(11, 88);
-            this.maskedTextBox1.Mask = "00/00/0000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(166, 20);
-            this.maskedTextBox1.TabIndex = 1;
-            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(11, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(213, 20);
-            this.textBox1.TabIndex = 2;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(11, 11);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 18);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Seu nome";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(11, 67);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(125, 18);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Data de Nascimento";
-            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.BlueViolet;
@@ -175,6 +138,43 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "Assisitir agora!";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(11, 67);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(125, 18);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Data de Nascimento";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(11, 11);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 18);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Seu nome";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(11, 32);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(213, 20);
+            this.textBox1.TabIndex = 2;
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Font = new System.Drawing.Font("Trebuchet MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.Location = new System.Drawing.Point(11, 88);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(166, 20);
+            this.maskedTextBox1.TabIndex = 1;
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
             // Form1
             // 

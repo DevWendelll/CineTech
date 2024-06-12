@@ -29,40 +29,65 @@ namespace TelaEscolherFilme
             if (btnConfirmar.Enabled)
             {
                 pnlNomeData.Visible = true;
+                btnConfirmar.Text = "Quero assistir esse!";
             }
         }
         private void CarregarFilmes()
         {
-            // Adicione os filmes à ComboBox
             cmbFilmes.Items.Add("Velozes e Furiosos 10");
             cmbFilmes.Items.Add("Sonic 2");
-            cmbFilmes.Items.Add("Filme 3");
+            cmbFilmes.Items.Add("Gatos de Botas");
+            cmbFilmes.Items.Add("Ta chovendo Hamburger");
+            cmbFilmes.Items.Add("Pelé");
+            cmbFilmes.Items.Add("Lupin");
+            cmbFilmes.Items.Add("Vingadores: Guerra Infinita");
+            cmbFilmes.Items.Add("Peak Blieds");
+            cmbFilmes.Items.Add("Neymas: O Caos Perfeito");
+            cmbFilmes.Items.Add("Transformes");
 
-            // Configure o evento SelectedIndexChanged
             cmbFilmes.SelectedIndexChanged += cmbFilmes_SelectedIndexChanged;
         }
-    
+
 
         private void cmbFilmes_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Obtenha o filme selecionado
+  
             string filmeSelecionado = cmbFilmes.SelectedItem.ToString();
 
-            // Mude a imagem da PictureBox de acordo com o filme selecionado
+  
             switch (filmeSelecionado)
             {
                 case "Velozes e Furiosos 10":
-                    imgCapaFilme.Image = Image.FromFile("velozesEfuriosos.jpg");
+                    imgCapaFilme.Image = Properties.Resources.Velozes_e_Furiosos_10;
                     break;
                 case "Sonic 2":
-                    imgCapaFilme.Image = Image.FromFile("imagens.sonic.jpg");
+                    imgCapaFilme.Image = Properties.Resources.Sonic_2; 
                     break;
-                case "Filme 3":
-                    imgCapaFilme.Image = Image.FromFile("caminho_para_imagem_do_filme3.jpg");
+                case "Gatos de Botas":
+                    imgCapaFilme.Image = Properties.Resources.Gatos_de_Botas; 
                     break;
-                default:
-                    imgCapaFilme.Image = null;
+                case "Ta chovendo Hamburger":
+                    imgCapaFilme.Image = Properties.Resources.Ta_chovendo_Hamburger; 
                     break;
+                case "Pelé":
+                    imgCapaFilme.Image = Properties.Resources.Pelé;
+                    break;
+                case "Lupin":
+                    imgCapaFilme.Image = Properties.Resources.Lupin;
+                    break;
+                case "Vingadores: Guerra Infinita":
+                    imgCapaFilme.Image = Properties.Resources.Vingadores_Guerra_Infinita; 
+                    break;
+                case "Peak Blieds":
+                    imgCapaFilme.Image = Properties.Resources.Peak_Blieds; 
+                    break;
+                case "Neymas: O Caos Perfeito":
+                    imgCapaFilme.Image = Properties.Resources.Neymas_O_Caos_Perfeito; 
+                    break;
+                case "Transformes":
+                    imgCapaFilme.Image = Properties.Resources.Transformes; 
+                    break;
+
             }
         }
     }
